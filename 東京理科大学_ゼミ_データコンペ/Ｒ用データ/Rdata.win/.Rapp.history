@@ -1,0 +1,285 @@
+load("/Users/toyodakengo/送付データ_2020/Ｒ用データ/Rdata.win/viWEB利用状況.Rdata")
+load("/Users/toyodakengo/送付データ_2020/Ｒ用データ/Rdata.win/新聞出稿データ_2020.Rdata")
+data("viWEB利用状況.Rdata")
+load("/Users/toyodakengo/送付データ_2020/Ｒ用データ/Rdata.win/viテレビ番組別視聴状況.Rdata")
+head("viWEB利用状況")
+data <- "viWEB利用状況"
+head(data)
+head("新聞出稿データ_2020")
+新聞出稿データ_2020
+”新聞出稿データ_2020"
+"新聞出稿データ_2020"
+npsk
+load("/Users/toyodakengo/送付データ_2020/Ｒ用データ/Rdata.win/WEB利用状況_2020.Rdata")
+web
+source("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+web
+source("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+head("WEB利用状況_2020")
+WEB利用状況_2020
+setwd("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+data <- read("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+data <- read.csv("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+data
+data <- read.csv("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+web
+head("CAT_INFO_08_02_MX")
+CAT_INFO_08_02_MX
+"CAT_INFO_08_02_MX"
+data1 <- "CAT_INFO_08_02_MX"
+data1
+data1 <- data$CAT_INFO_01_02_MX
+data1
+sum(data1, na.rm = TRUE)
+data_hudosan <- data$CAT_INFO_01_02_MX#
+#
+sum(datahudousan, na.rm = TRUE)
+data_hudosan <- data$CAT_INFO_01_02_MX#
+#
+sum(data_hudousan, na.rm = TRUE)
+data_hudousan <- data$CAT_INFO_01_02_MX#
+#
+sum(data_hudousan, na.rm = TRUE)
+sum(data_hudousan)
+data_hudousan <- data$CAT_INFO_01_02_MX#
+sum(data_hudousan, na.rm = TRUE)
+data_estate <- data$CAT_INFO_01_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_insurance <- data$CAT_INFO_02_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_movie <- data$CAT_INFO_03_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_job <- data$CAT_INFO_04_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_elec_money <- data$CAT_INFO_05_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_card_loan <- data$CAT_INFO_06_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_fly <- data$CAT_INFO_07_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_drink <- data$CAT_INFO_08_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_sweet <- data$CAT_INFO_09_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_health_food <- data$CAT_INFO_10_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_go_out <- data$CAT_INFO_11_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_cosme <- data$CAT_INFO_12_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_hair <- data$CAT_INFO_13_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_medical <- data$CAT_INFO_14_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_car <- data$CAT_INFO_15_02_MX#
+sum(data_hudousan, na.rm = TRUE)#
+#
+data_home_divice <- data$CAT_INFO_16_02_MX#
+sum(data_hudousan, na.rm = TRUE)
+data <- read.csv("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+data_estate <- data$CAT_INFO_01_02_MX#
+sum(data_hudousan, na.rm = TRUE)
+data_insurance <- data$CAT_INFO_02_02_MX#
+sum(data_hudousan, na.rm = TRUE)
+data_estate <- data$CAT_INFO_01_02_MX#
+#
+data_insurance <- data$CAT_INFO_02_02_MX
+mydata <- read.csv("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")
+data_estate <- rep(0)#
+data_estate[mydata$CAT_INFO_01_02_MX==1] <- 1
+data_estate[mydata$CAT_INFO_01_02_MX==1] <- 1
+カテゴリ別検索変数名#
+data_estate <- mydata$CAT_INFO_01_02_MX#
+data_insurance <- mydata$CAT_INFO_02_02_MX#
+data_movie <- mydata$CAT_INFO_03_02_MX#
+data_job <- mydata$CAT_INFO_04_02_MX#
+data_elec_money <- mydata$CAT_INFO_05_02_MX#
+data_card_loan <- mydata$CAT_INFO_06_02_MX#
+data_fly <- mydata$CAT_INFO_07_02_MX#
+data_drink <- mydata$CAT_INFO_08_02_MX#
+data_sweet <- mydata$CAT_INFO_09_02_MX#
+data_health_food <- mydmata$CAT_INFO_10_02_MX#
+data_go_out <- mydata$CAT_INFO_11_02_MX#
+data_cosme <- mydata$CAT_INFO_12_02_MX#
+data_hair <- mydata$CAT_INFO_13_02_MX#
+data_medical <- mydata$CAT_INFO_14_02_MX#
+data_car <- mydata$CAT_INFO_15_02_MX#
+data_home_divice <- mydata$CAT_INFO_16_02_MX#
+#
+#カテゴリ別検索ダミー変数わけ#
+data_estate <- rep(0)#
+data_estate[mydata$CAT_INFO_01_02_MX==1] <- 1#
+data_insurance <- rep(0)#
+data_insurance[mydata$CAT_INFO_02_02_MX==1] <- 1#
+data_movie <- rep(0)#
+data_movie[mydata$CAT_INFO_03_02_MX==1] <- 1#
+data_job <- rep(0)#
+data_job[mydata$CAT_INFO_04_02_MX==1] <- 1#
+data_elec_money <- rep(0)#
+data_elec_money[mydata$CAT_INFO_05_02_MX==1] <- 1#
+data_card_loan <- rep(0)#
+data_card_loan[mydata$CAT_INFO_06_02_MX==1] <- 1#
+data_fly <- rep(0)#
+data_fly[mydata$CAT_INFO_07_02_MX==1] <- 1#
+data_drink <- rep(0)#
+data_drink[mydata$CAT_INFO_08_02_MX==1] <- 1#
+data_sweet <- rep(0)#
+data_sweet[mydata$CAT_INFO_09_02_MX==1] <- 1#
+data_health_food <- rep(0)#
+data_health_food[mydata$CAT_INFO_10_02_MX==1] <- 1#
+data_go_out <- rep(0)#
+data_go_out[mydata$CAT_INFO_11_02_MX==1] <- 1#
+data_cosme <- rep(0)#
+data_cosme[mydata$CAT_INFO_12_02_MX==1] <- 1#
+data_hair <- rep(0)#
+data_hair[mydata$CAT_INFO_13_02_MX==1] <- 1#
+data_medical <- rep(0)#
+data_medical[mydata$CAT_INFO_14_02_MX==1] <- 1#
+data_car <- rep(0)#
+data_car[mydata$CAT_INFO_16_02_MX==1] <- 1#
+data_home_divice　<- rep(0)#
+data_home_divice[mydata$CAT_INFO_17_02_MX==1] <- 1
+mydata <- read.csv("/Users/toyodakengo/送付データ_2020/アンケートデータ/CSV/WEB利用状況_2020.csv")#
+#
+#カテゴリ別検索変数名#
+data_estate <- mydata$CAT_INFO_01_02_MX#
+data_insurance <- mydata$CAT_INFO_02_02_MX#
+data_movie <- mydata$CAT_INFO_03_02_MX#
+data_job <- mydata$CAT_INFO_04_02_MX#
+data_elec_money <- mydata$CAT_INFO_05_02_MX#
+data_card_loan <- mydata$CAT_INFO_06_02_MX#
+data_fly <- mydata$CAT_INFO_07_02_MX#
+data_drink <- mydata$CAT_INFO_08_02_MX#
+data_sweet <- mydata$CAT_INFO_09_02_MX#
+data_health_food <- mydmata$CAT_INFO_10_02_MX#
+data_go_out <- mydata$CAT_INFO_11_02_MX#
+data_cosme <- mydata$CAT_INFO_12_02_MX#
+data_hair <- mydata$CAT_INFO_13_02_MX#
+data_medical <- mydata$CAT_INFO_14_02_MX#
+data_car <- mydata$CAT_INFO_15_02_MX#
+data_home_divice <- mydata$CAT_INFO_16_02_MX#
+#
+#カテゴリ別検索ダミー変数わけ#
+data_estate <- rep(0)#
+data_estate[mydata$CAT_INFO_01_02_MX==1] <- 1#
+data_insurance <- rep(0)#
+data_insurance[mydata$CAT_INFO_02_02_MX==1] <- 1#
+data_movie <- rep(0)#
+data_movie[mydata$CAT_INFO_03_02_MX==1] <- 1#
+data_job <- rep(0)#
+data_job[mydata$CAT_INFO_04_02_MX==1] <- 1#
+data_elec_money <- rep(0)#
+data_elec_money[mydata$CAT_INFO_05_02_MX==1] <- 1#
+data_card_loan <- rep(0)#
+data_card_loan[mydata$CAT_INFO_06_02_MX==1] <- 1#
+data_fly <- rep(0)#
+data_fly[mydata$CAT_INFO_07_02_MX==1] <- 1#
+data_drink <- rep(0)#
+data_drink[mydata$CAT_INFO_08_02_MX==1] <- 1#
+data_sweet <- rep(0)#
+data_sweet[mydata$CAT_INFO_09_02_MX==1] <- 1#
+data_health_food <- rep(0)#
+data_health_food[mydata$CAT_INFO_10_02_MX==1] <- 1#
+data_go_out <- rep(0)#
+data_go_out[mydata$CAT_INFO_11_02_MX==1] <- 1#
+data_cosme <- rep(0)#
+data_cosme[mydata$CAT_INFO_12_02_MX==1] <- 1#
+data_hair <- rep(0)#
+data_hair[mydata$CAT_INFO_13_02_MX==1] <- 1#
+data_medical <- rep(0)#
+data_medical[mydata$CAT_INFO_14_02_MX==1] <- 1#
+data_car <- rep(0)#
+data_car[mydata$CAT_INFO_16_02_MX==1] <- 1#
+data_home_divice　<- rep(0)#
+data_home_divice[mydata$CAT_INFO_17_02_MX==1] <- 1
+#カテゴリ別検索変数名#
+data_estate <- mydata$CAT_INFO_01_02_MX#
+data_insurance <- mydata$CAT_INFO_02_02_MX#
+data_movie <- mydata$CAT_INFO_03_02_MX#
+data_job <- mydata$CAT_INFO_04_02_MX#
+data_elec_money <- mydata$CAT_INFO_05_02_MX#
+data_card_loan <- mydata$CAT_INFO_06_02_MX#
+data_fly <- mydata$CAT_INFO_07_02_MX#
+data_drink <- mydata$CAT_INFO_08_02_MX#
+data_sweet <- mydata$CAT_INFO_09_02_MX#
+data_health_food <- mydata$CAT_INFO_10_02_MX#
+data_go_out <- mydata$CAT_INFO_11_02_MX#
+data_cosme <- mydata$CAT_INFO_12_02_MX#
+data_hair <- mydata$CAT_INFO_13_02_MX#
+data_medical <- mydata$CAT_INFO_14_02_MX#
+data_car <- mydata$CAT_INFO_15_02_MX#
+data_home_divice <- mydata$CAT_INFO_16_02_MX#
+#
+#カテゴリ別検索ダミー変数わけ#
+data_estate <- rep(0)#
+data_estate[mydata$CAT_INFO_01_02_MX==1] <- 1#
+data_insurance <- rep(0)#
+data_insurance[mydata$CAT_INFO_02_02_MX==1] <- 1#
+data_movie <- rep(0)#
+data_movie[mydata$CAT_INFO_03_02_MX==1] <- 1#
+data_job <- rep(0)#
+data_job[mydata$CAT_INFO_04_02_MX==1] <- 1#
+data_elec_money <- rep(0)#
+data_elec_money[mydata$CAT_INFO_05_02_MX==1] <- 1#
+data_card_loan <- rep(0)#
+data_card_loan[mydata$CAT_INFO_06_02_MX==1] <- 1#
+data_fly <- rep(0)#
+data_fly[mydata$CAT_INFO_07_02_MX==1] <- 1#
+data_drink <- rep(0)#
+data_drink[mydata$CAT_INFO_08_02_MX==1] <- 1#
+data_sweet <- rep(0)#
+data_sweet[mydata$CAT_INFO_09_02_MX==1] <- 1#
+data_health_food <- rep(0)#
+data_health_food[mydata$CAT_INFO_10_02_MX==1] <- 1#
+data_go_out <- rep(0)#
+data_go_out[mydata$CAT_INFO_11_02_MX==1] <- 1#
+data_cosme <- rep(0)#
+data_cosme[mydata$CAT_INFO_12_02_MX==1] <- 1#
+data_hair <- rep(0)#
+data_hair[mydata$CAT_INFO_13_02_MX==1] <- 1#
+data_medical <- rep(0)#
+data_medical[mydata$CAT_INFO_14_02_MX==1] <- 1#
+data_car <- rep(0)#
+data_car[mydata$CAT_INFO_16_02_MX==1] <- 1#
+data_home_divice　<- rep(0)#
+data_home_divice[mydata$CAT_INFO_17_02_MX==1] <- 1
+table(data_estate)
+table(data_home_divice)
+table(data_car)
+#各SNS利用頻度変数名#
+mydata$Twitter_frequence<-mydata$NET_Freq_01_MX#
+mydata$Facebook_frequence<-mydata$NET_Freq_02_MX#
+mydata$Instagram_frequence<-mydata$NET_Freq_03_MX#
+mydata$LINE_frequence<-mydata$NET_Freq_05_MX#
+mydata$YouTube_frequence<-mydata$NET_Freq_07_MX#
+#
+#各SNS利用頻度週4-5回以上のダミー変数#
+mydata$Twitter_frequence<-rep(0)#
+mydata$Twitter_frequence[mydata$NET_Freq_01_MX==1]<-1#
+mydata$Twitter_frequence[mydata$NET_Freq_01_MX==2]<-2#
+mydata$Facebook_frequence<-rep(0)#
+mydata$Facebook_frequence[mydata$NET_Freq_02_MX==1]<-1#
+mydata$Facebook_frequence[mydata$NET_Freq_02_MX==2]<-2#
+mydata$Instagram_frequence<-rep(0)#
+mydata$Instagram_frequence[mydata$NET_Freq_03_MX==1]<-1#
+mydata$Instagram_frequence[mydata$NET_Freq_03_MX==2]<-2#
+mydata$LINE_frequence<-rep(0)#
+mydata$LINE_frequence[mydata$NET_Freq_05_MX==1]<-1#
+mydata$LINE_frequence[mydata$NET_Freq_05_MX==2]<-2#
+mydata$YouTube_frequence<-rep(0)#
+mydata$YouTube_frequence[mydata$NET_Freq_07_MX==1]<-1#
+mydata$YouTube_frequence[mydata$NET_Freq_07_MX==2]<-2
